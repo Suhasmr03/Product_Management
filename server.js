@@ -40,5 +40,5 @@ server.get('/', (req, res) => {
     res.send('Hello, World!');
 });
 
-server.listen(3000, connectDB());
+server.listen(3000, connectDB);
 console.log('Server is running on http://localhost:3000');
